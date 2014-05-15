@@ -11,7 +11,6 @@ if(isset($_POST['submit']))
     if(isset($_POST['cid']))
 	{
 	$new_link = "./index2.php";
-	$_SESSION['clickbankID'] = $cid;
 	$_SESSION['apikey'] = $aid;
 	$_SESSION['campaign_id'] = $seleted_campaing_id (selected $campaignID ); //Getting error when use yours
 	$_SESSION['campaignID'] = $campaignID; // My one , getting my Campaign Token : 5G7a
